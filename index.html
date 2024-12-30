@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NPM - Build Amazing Things</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -26,11 +27,23 @@
     <!-- Navbar Section -->
     <div class="navbar">
         <img src="images/npm-logo.png" alt="npm-logo">
+        <div id="searchLensBtn"></div>
         <form action="/search" method="get">
-            <img src="images/magnifying-glass.png" alt="">
-            <input type="search" placeholder="Search..." aria-label="Search">
+            <div class="search-wrapper">
+                <img src="images/magnifying-glass.png" alt="magnifying lens" class="search-icon">
+                <input type="search" placeholder="Search..." aria-label="Search" id="search-len">
+            </div>
+
             <button type="submit" class="red-btn">Search</button>
-        </form>
+            <div class="joinLogin"></div>
+            <ul>
+                <li>Join</li>
+                <li>Login</li>
+            </ul>
+    </div>
+
+    </form>
+
     </div>
 
     <!-- Main Content -->
@@ -46,7 +59,7 @@
 
         <!-- About Section -->
         <section class="about">
-            <img src="images/npm-audit.svg" alt="Hexagon image" class="exagon">
+            <img src="images/triangle-hexagon.svg" alt="Hexagon image" class="exagon">
             <h2>Bring the best of open source to your company</h2>
             <p>npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already
                 use it. Your company

@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h5 {
+    margin: 0.5em 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #f6f4f4;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart-pun img {
+    width: 30px;
+}
+
+.menu-wrapper {
+    flex-grow: 1;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar img {
+    width: 58px;
+
+}
+
+div img {
+    width: 40px;
+    padding-right: 50px;
+}
+
+
+.search-icon {
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    /* Adjust the size of the icon */
+    height: 19.5px;
+    /* Adjust the size of the icon */
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="search"] {
+
+    /* Add space for the icon */
+    padding: 8px 10px;
+    /* Adjust padding for the input text */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    /* Adjust the width as needed */
+}
+
+#search-len {
+    padding-left: 55px;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.red-btn:hover {
+    background-color: #b30000;
+}
+
+button.link {
+    background-color: transparent;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+button.link:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    margin: 10px;
+}
+
+/* About Section Styles */
+.about {
+    background-color: white;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exagon {
+    width: 200px;
+}
+
+.about h2 {
+    font-size: 1.8em;
+    max-width: 600px;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Features Section Styles */
+.features {
+    background-color: #fafafa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features ol {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.features li {
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+.features img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.features h5 {
+    font-size: 1.3em;
+}
+
+.features button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.features button:hover {
+    background-color: #b30000;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
